@@ -4,11 +4,22 @@
   <!-- basic.html -->
   <title>8893</title>
   <meta charset = "UTF-8" />
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!--
+  <script src="scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+-->
 </head>
 <body>
 
 <div class="wrapper">
-	<div class="1_container">
+
+	<div class="left">
 		<h2>8893</h2>
 
 		<div class="info">
@@ -31,57 +42,32 @@
 		</div>
 	</div>
 
-	<div class="2_container">
+	<div class="right">
 		<div class="hp_slideshow">
-				<img src="https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif" alt="dog">
+
+			<div class="main-carousel">
+				<div class="carousel-cell">
+					<img src="img/Recess_01.jpg" alt="dog">
+				</div>
+				<div class="carousel-cell">
+					<img src="img/Recess_02.jpg" alt="dog">
+				</div>
+				<div class="carousel-cell">
+					<img src="img/Recess_03.jpg" alt="dog">
+				</div>
+				<div class="carousel-cell">
+					<img src="img/Recess_04.jpg" alt="dog">
+				</div>
+				<div class="carousel-cell">
+					<img src="img/Recess_06.jpg" alt="dog">
+				</div>
+
+			</div>
+
 		</div>
 	</div>
 
 </div>
 
 </body>
-
-<style>
-	body{
-		font-family: "Georgia", serif; 
-		padding:0 auto;
-		margin: 0 auto;
-	}
-
-	h2{
-		font-weight: normal;
-	}
-
-	.wrapper{
-		display: grid;
-		width:100vw;
-		height:100vh;
-  		grid-template-columns: 20% 20% 20% 20% 20%;
-  		grid-template-rows: 20% 20% 20% 20% 20%;
-	}
-
-	.1_container{
-		margin:0 auto;
-		padding:0 auto;
-		display: grid;
-		grid-column-start:2;
-		grid-column-end:3;
-	}
-
-	.info{
-
-	}
-
-	.contact{
-	}
-
-	.2_container{
-		margin:0 auto;
-		padding:0 auto;
-		grid-column-start: 4;
-		grid-column-end:5;
-	}
-
-
-</style>
 </html>
